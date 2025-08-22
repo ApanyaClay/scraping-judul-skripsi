@@ -41,7 +41,7 @@ curl "http://localhost:5123/scrape/save-csv?limit=200&offset=0"
 ### 3. Simpan Data ke CSV Otomatis
 
 ```bash
-curl "http://localhost:5123/scrape/save-csv-auto?target=200&per_page=50&start_offset=0"
+curl "http://localhost:5123/scrape/save-csv-auto?target=200&per_page=50&start_offset=0&delay=0"
 ```
 
 ## Catatan
